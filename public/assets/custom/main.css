@@ -1,0 +1,127 @@
+.text_typed_value_count {
+    padding-right: 80px;
+}
+
+.text_value_count {
+    float: right;
+    margin: -32px 7px 0px 0px;
+    color: gray;
+    font-size: 12px;
+}
+
+.gifter_datatable_name_truncate {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    max-width: 300px !important;
+}
+
+.gifter_datatable_sku_truncate {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    max-width: 165px !important;
+}
+
+.gifter_back_btn {
+    color: #ffff;
+}
+
+.gifter_back_btn:hover {
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+/* Custom Scrollbar */
+.gifter_scrollbar {
+    overflow-y: auto;
+}
+/*  End Custom Scrollbar */
+
+/* width */
+.gifter_scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+.gifter_scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Handle */
+.gifter_scrollbar::-webkit-scrollbar-thumb {
+    background: #4B49AC;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.gifter_scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #5654aa;
+}
+
+.uploads_images .dropzone {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+
+.vendor_form .SumoSelect .sumoSelect_search {
+    padding: 15px 0px 0px 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+}
+.fa-info-circle{
+    color:gray;
+    float: right;
+}
+
+.dataTables_wrapper .dataTable{
+    width: 100%!important;
+}
+
+.card-body .gifter_hover_btn:hover{
+    text-decoration: none;
+}
+
+.faq_datatable_ellips{
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    max-width: 260px !important;
+}
+
+/*   Dropzone JS progressbar */
+#imageUpload .dz-progress {
+    /* progress bar covers file name */
+    display: none !important;
+}
+/*  End Dropzone JS progressbar */
+
+
+@media screen and (min-width: 1400px){
+
+    .all_product_table .dataTables_wrapper .dataTable
+    {
+        display: table !important;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .all_product_table .dataTables_wrapper .dataTable
+    {
+        display: block !important;
+        width: 100% !important;
+        -webkit-overflow-scrolling: touch !important;
+        overflow-x: auto;
+    }
+
+}
+
+.sumo_business_type .optWrapper{
+    position: relative!important;
+    top: 0px !important;
+}

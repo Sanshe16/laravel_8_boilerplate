@@ -1,0 +1,13 @@
+
+.admin_settings_tabs label{
+    font-weight: 500;
+}
+.admin_settings_tabs .SumoSelect {
+    display: block;
+    width: auto;
+}
+.admin_settings_tabs .SumoSelect .sumoSelect_search{
+    padding: 15px 0px 0px 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+}
